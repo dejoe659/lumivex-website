@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html { scroll-behavior: smooth; }
+body { background: #071426; color: #fff; }
+:focus-visible { outline: 2px solid #00CFFF; outline-offset: 3px; }
+@keyframes beam { 0%,100% { opacity: .55 } 50% { opacity: 1 } }
+.beam { animation: beam 5s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto } .beam { animation: none } }
