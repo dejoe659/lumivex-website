@@ -1,0 +1,29 @@
+app/
+  about/page.tsx
+  api/contact/route.ts
+  contact/page.tsx
+  portfolio/page.tsx
+  process/page.tsx
+  products/page.tsx
+  services/page.tsx
+  globals.css
+  layout.tsx
+  page.tsx
+  robots.ts
+  sitemap.ts
+components/
+  Chrome.tsx
+  ContactForm.tsx
+  Peak.tsx
+  ProjectGrid.tsx
+  ui.tsx
+lib/
+  data.ts
+.env.example
+.gitignore
+README.md
+next.config.mjs
+package.json
+postcss.config.mjs
+tailwind.config.ts
+tsconfig.json
